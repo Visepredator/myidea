@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xc-service-manage-course" />
         <module name="xc-framework-common" />
         <module name="test-fastdfs" />
-        <module name="xc-govern-center" />
-        <module name="xc-service-manage-cms" />
-        <module name="xc-service-search" />
-        <module name="xc-framework-utils" />
-        <module name="xc-service-manage-cms-client" />
-        <module name="test-freemarker" />
-        <module name="xc-service-base-filesystem" />
-        <module name="xc-service-api" />
         <module name="xc-framework-model" />
+        <module name="xc-framework-utils" />
+        <module name="xc-service-ucenter-auth" />
+        <module name="xc-service-search" />
+        <module name="xc-service-api" />
+        <module name="xc-service-manage-cms-client" />
+        <module name="xc-govern-center" />
+        <module name="xc-service-base-filesystem" />
+        <module name="xc-service-manage-course" />
+        <module name="xc-service-manage-cms" />
+        <module name="test-freemarker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="xc-service-manage-cms-client" target="1.8" />
       <module name="xc-service-manage-course" target="1.8" />
       <module name="xc-service-search" target="1.8" />
+      <module name="xc-service-ucenter-auth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +52,7 @@
       <module name="xc-service-manage-cms-client" options="-parameters" />
       <module name="xc-service-manage-course" options="-parameters" />
       <module name="xc-service-search" options="-parameters" />
+      <module name="xc-service-ucenter-auth" options="-parameters" />
     </option>
   </component>
 </project>
